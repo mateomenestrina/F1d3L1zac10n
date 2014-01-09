@@ -45,10 +45,20 @@
 				   );
 
 			}
+			function encode(){
 
+				 cordova.plugins.barcodeScanner.encode(BarcodeScanner.Encode.TEXT_TYPE, "http://www.nytimes.com", function(success) {
+			            alert("encode success: " + success);
+			          }, function(fail) {
+			            alert("encoding failed: " + fail);
+			          }
+			        );
+				
+			}
 		</script>
 		
-		<a href='#' onclick='scan()'>SCAN SCAN</a>
+		<a href='#' onclick='scan()'>SCAN SCAN</a><br />
+		<a href='#' onclick='encode()'>ENCODE</a>
 		
 	</body>
 </html>
