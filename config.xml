@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.mdinteractivo.fidelizacion"
+        versionCode="1" 
+        version   = "1.0">
+
+    <preference name="phonegap-version" value="3.1.0" />
+    <preference name="fullscreen" value="true" />
+    <preference name="orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="ios-statusbarstyle" value="black-translucent"/>
+
+    <preference name="android-minSdkVersion" value="11" />
+    <preference name="android-targetSdkVersion" value="14" />
+
+    <access origin="*" />
+    
+    <name>Fidelizacion</name>
+    
+    <description>
+      
+    </description>
+
+    <icon src="icon.png" />
+    <gap:splash src="splash.png" />
+
+    <author href="https://build.phonegap.com" email="support@phonegap.com">
+        Hardeep Shoker 
+    </author>
+    
+    <gap:platform name="ios" /> 
+    <gap:platform name="android" />
+     
+     <gap:plugin name="com.phonegap.plugins.barcodescanner" />
+    
+</widget>
