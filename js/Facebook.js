@@ -12,10 +12,9 @@ function Facebook(){
 
 	}
 
+	this.esta_coenctado = function (){
 
-	this.conectar = function($callback){
-		
-     /*	 FB.getLoginStatus(function(response) {
+		 FB.getLoginStatus(function(response) {
      	
 	          	if (response.status == 'connected') {
 
@@ -26,9 +25,31 @@ function Facebook(){
 							 	_uid = response.authResponse.userID;
 							 	_access_token = response.authResponse.accessToken;
 						}
-						$callback();
+						
+						FB.api('/me', function(response) {
+								        _name = response.name;
+								    	
+								     });
+							    	
+						alert('conectado ' + _uid);
 
-					} else {*/
+
+
+					} else {	
+
+						alert('no conectado ' + _uid)
+
+
+					}
+
+				});
+
+	}
+
+
+	this.conectar = function($callback){
+		
+     
 						
 			             FB.login(function(response2) {
 					 		 // console.log(response2)
@@ -54,9 +75,7 @@ function Facebook(){
 
 							   }
 						}, {scope: 'email'});
-	         	/*	}
-         });*/
-
+	         		
 		
 	}
 
