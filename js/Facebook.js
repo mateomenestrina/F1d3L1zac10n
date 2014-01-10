@@ -41,6 +41,10 @@ function Facebook(){
 										 	_uid = response2.authResponse.userID;
 										 	_access_token = response2.authResponse.accessToken;
 									}
+
+									FB.api('/me', function(response) {
+								        alert('Good to see you, ' + response.name + '.');
+								     });
 							    	$callback();
 
 							   } else {
