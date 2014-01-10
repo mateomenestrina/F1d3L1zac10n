@@ -57,7 +57,9 @@ function Facebook(){
 
 	this.desconectar = function(){
 		
-     	 FB.logout();
+     	 FB.logout(function(response) {
+                          alert('logged out');
+                          });
 
 	}
 
