@@ -11,7 +11,6 @@
 		<script src="libs/jquery-1.8.3.min.js"></script>
 		<script src="libs/jquery-barcode.min.js"></script>
 		
-
 	</head>
 
 	<body>
@@ -19,7 +18,9 @@
 		
 		<script src="cordova.js"></script>
 		<script src="js/facebook.js"></script>
-		
+		<script src="cdv-plugin-fb-connect.js"></script>
+		<script src="facebook-js-sdk.js"></script>
+
 		<script>
 			
 			var _uid = 0;
@@ -37,27 +38,11 @@
 				_Facebook = new Facebook();
 				_Facebook.init();
 
-
+				alert('asd')
 
 			}				
 			
-			function scan(){
-//
-			/*	 cordova.plugins.barcodeScanner.scan(
-				      
-				      function (result) {
-				          alert("We got a barcode\n" +
-				                "Result: " + result.text + "\n" +
-				                "Format: " + result.format + "\n" +
-				                "Cancelled: " + result.cancelled);
-				      }, 
-				      
-				      function (error) {
-				          alert("Scanning failed: " + error);
-				      }
-				   );*/
-
-			}
+		
 			function encode(){
  
 				 /*cordova.plugins.barcodeScanner.encode(BarcodeScanner.Encode.TEXT_TYPE, "http://www.nytimes.com", function(success) {
