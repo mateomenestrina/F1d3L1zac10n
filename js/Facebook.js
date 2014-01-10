@@ -43,9 +43,10 @@ function Facebook(){
 									}
 
 									FB.api('/me', function(response) {
-								        alert('Good to see you, ' + response.name + '.');
+								       _name = response.name;
+								        $callback();
 								     });
-							    	$callback();
+							    	
 
 							   } else {
  
