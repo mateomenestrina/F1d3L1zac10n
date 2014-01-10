@@ -37,7 +37,7 @@
 
     <gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.4.0">
         <param name="APP_ID" value="1435336426698191" />
-        <param name="APP_NAME" value="Fide­l­i­z­a­cion (Testing)" />
+        <param name="APP_NAME" value="fidelizacion_testing" />
     </gap:plugin>
 
  
