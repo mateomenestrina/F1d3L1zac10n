@@ -43,7 +43,7 @@ function Facebook(){
 									}
 
 									FB.api('/me', function(response) {
-								       _name = response.name;
+								        _name = response.name;
 								        $callback();
 								     });
 							    	
