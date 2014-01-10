@@ -27,9 +27,9 @@ function Facebook(){
 						}
 						
 						FB.api('/me', function(response) {
-								        _name = response.name;
-								    	
-								     });
+							_name = response.name;
+								alert('conectado ' + _name);
+						});
 							    	
 						alert('conectado ' + _uid);
 
