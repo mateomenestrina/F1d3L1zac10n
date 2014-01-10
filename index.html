@@ -11,6 +11,8 @@
 		<script src="libs/jquery-1.8.3.min.js"></script>
 		<script src="libs/jquery-barcode.min.js"></script>
 		
+
+		<link rel="stylesheet" type="text/css" href="estilo.css">
 	</head>
 
 	<body>
@@ -21,16 +23,27 @@
 		<script src="facebook-js-sdk.js"></script>
 
 		<script src="js/Facebook.js"></script>
+		<script src="js/Boton.js"></script>
+
 		<script>
 			
 			var _uid = 0;
 			var _access_token = '';
 			var _Facebook;
+			var btn_connect;
 
 			document.addEventListener('deviceready', deviceready, false);
 
+		
+
+
+
 			function deviceready(){
 
+
+				btn_connect = new Boton("INICAR SESSION", doConnect, 'BotonAzul')
+				btn_connect.main.id = 'connect'
+				$('body').append(btn_connect.main)
 				if ((typeof cordova == 'undefined') && (typeof Cordova == 'undefined')) alert('Cordova variable does not exist. Check that you have included cordova.js correctly');
 				if (typeof CDV == 'undefined') alert('CDV variable does not exist. Check that you have included cdv-plugin-fb-connect.js correctly');
 				if (typeof FB == 'undefined') alert('FB variable does not exist. Check that you have included the Facebook JS SDK file.');
@@ -40,25 +53,37 @@
 
 
 
+
 			}				
 			
-		
+
+			function doConnect(){
+
+				_Facebook.conectar(conecto_ok);
+
+			}
+			function conecto_ok(){
+
+				alert(_uid)
+
+			}
 			function encode(){
  
-				 /*cordova.plugins.barcodeScanner.encode(BarcodeScanner.Encode.TEXT_TYPE, "http://www.nytimes.com", function(success) {
-			            alert("encode success: " + success);
-			          }, function(fail) {
-			            alert("encoding failed: " + fail);
-			          }
-			        );*/
-				$("#bcTarget").barcode("1233243432423423453453", "ean8", {barWidth:2, barHeight:130});     
+				
+				$("#bcTarget").barcode("1233243432423423453453", "ean16", {barWidth:2, barHeight:130});     
+
 			}
 
 
 		</script>
 		
 		<div id="bcTarget"></div>   
+		<div id="home">
 
+			
+
+
+		</div>   
 
 
 	</body>

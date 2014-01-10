@@ -21,3 +21,11 @@ html,body {
 				width: 140px;
 				text-align: center;
 			}
+
+
+
+#connect{
+	left: 50%;
+	top: 45%;
+	margin-left: -75px;
+}
