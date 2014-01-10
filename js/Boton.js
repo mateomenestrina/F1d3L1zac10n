@@ -12,18 +12,18 @@ function Boton($html, $callback, $className){
 
 	var habil = true;
 
-/*	if(app.es_touch()){
+//if(app.es_touch()){
 
 		//this.main.addEventListener("touchend", do_click);
 		this.main.addEventListener("touchend", do_mouseout);
 		this.main.addEventListener("touchstart", do_mouseover);
 		this.main.addEventListener("touchstart", do_touchstart);
 
-	}else{
-*/
-		this.main.addEventListener("click", do_click);
+	//}else{
+
+		/*this.main.addEventListener("click", do_click);
 		this.main.addEventListener("mouseout", do_mouseout);
-		this.main.addEventListener("mouseover", do_mouseover);
+		this.main.addEventListener("mouseover", do_mouseover);*/
 		
 	//}
 
