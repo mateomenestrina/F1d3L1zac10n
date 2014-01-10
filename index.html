@@ -18,18 +18,31 @@
 
 		
 		<script src="cordova.js"></script>
+		<script src="js/facebook.js"></script>
 		
 		<script>
-				
+			
+			var _uid = 0;
+			var _access_token = '';
+			var _Facebook;
+
 			document.addEventListener('deviceready', deviceready, false);
 
 			function deviceready(){
 
-				
+				if ((typeof cordova == 'undefined') && (typeof Cordova == 'undefined')) alert('Cordova variable does not exist. Check that you have included cordova.js correctly');
+				if (typeof CDV == 'undefined') alert('CDV variable does not exist. Check that you have included cdv-plugin-fb-connect.js correctly');
+				if (typeof FB == 'undefined') alert('FB variable does not exist. Check that you have included the Facebook JS SDK file.');
+				 
+				_Facebook = new Facebook();
+				_Facebook.init();
+
+
+
 			}				
 			
 			function scan(){
-
+//
 			/*	 cordova.plugins.barcodeScanner.scan(
 				      
 				      function (result) {
@@ -59,9 +72,9 @@
 
 		</script>
 		
-		<a href='#' onclick='scan()'>SCAN SCAN</a><br />
-		<a href='#' onclick='encode()'>ENCODE</a>
-
 		<div id="bcTarget"></div>   
+
+
+
 	</body>
 </html>
