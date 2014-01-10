@@ -12,7 +12,7 @@ function Boton($html, $callback, $className){
 
 	var habil = true;
 
-//if(app.es_touch()){
+	//if(app.es_touch()){
 
 		//this.main.addEventListener("touchend", do_click);
 		this.main.addEventListener("touchend", do_mouseout);
@@ -47,18 +47,17 @@ function Boton($html, $callback, $className){
 	
 		setTimeout(function (){
 
-			
+		
 			do_mouseout()
-	do_click()
+			if(habil) $callback();
 		}, 200)
 	}
 
 
 	function do_click(){
-	
+	alert('aaa')
 		if(habil) $callback();
-		document.activeElement.blur();
-		$("input").blur();
+		
 	}
 	
 	function do_mouseover(){
@@ -68,6 +67,8 @@ function Boton($html, $callback, $className){
 	}
 	
 	function do_mouseout(){
+
+
 		if(habil)
 		$(self.main).transition({opacity:1}, .2);
 	}
