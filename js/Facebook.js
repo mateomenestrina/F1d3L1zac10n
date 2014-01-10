@@ -26,12 +26,13 @@ function Facebook(){
 							 	_access_token = response.authResponse.accessToken;
 						}
 						
-						FB.api('/me', function(response) {
-							_name = response.name;
-								alert('conectado ' + _name);
+						FB.api('/me', function(response2) {
+							_name = response2.name;
+							alert('conectado 3 ' + _name);
 						});
 							    	
-						alert('conectado ' + _uid);
+						alert('conectado 1' + _uid);
+						alert('conectado 2' + _access_token);
 
 
 
