@@ -31,7 +31,12 @@
     
     <gap:platform name="ios" /> 
     <gap:platform name="android" />
-     
-     <gap:plugin name="com.phonegap.plugins.barcodescanner" />
+    
+    <gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.4.0">
+        <param name="APP_ID" value="1435336426698191" />
+        <param name="APP_NAME" value="Fide­l­i­z­a­cion (Testing)" />
+    </gap:plugin>
+
+ 
     
 </widget>
