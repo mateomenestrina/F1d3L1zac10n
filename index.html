@@ -67,10 +67,10 @@
 				alert(_uid)
 
 			}
-			function encode(){
+			function encode($num){
  
 				
-				$("#bcTarget").barcode("1233243432423423453453", "ean16", {barWidth:2, barHeight:130});     
+				$("#bcTarget").barcode($num, "ean16", {barWidth:2, barHeight:130});     
 
 			}
 
@@ -80,7 +80,7 @@
 		<div id="bcTarget"></div>   
 		<div id="home">
 
-			
+
 
 
 		</div>   
