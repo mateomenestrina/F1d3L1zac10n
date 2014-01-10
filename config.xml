@@ -5,7 +5,7 @@
         versionCode="1" 
         version   = "1.0">
 
-    <preference name="phonegap-version" value="3.0.0" />
+    <preference name="phonegap-version" value="3.1.0" />
     <preference name="fullscreen" value="true" />
     <preference name="orientation" value="portrait" />
     <preference name="DisallowOverscroll" value="true"/>
@@ -31,7 +31,7 @@
     
     <gap:platform name="ios" /> 
     <gap:platform name="android" />
-
+    
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.dialogs" />
 

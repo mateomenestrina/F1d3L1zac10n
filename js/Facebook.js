@@ -7,7 +7,7 @@ function Facebook(){
 		FB.init({
 			  appId: '1435336426698191',
 			  nativeInterface: CDV.FB,
-			  useCachedDialogs: false
+			  useCachedDialogs: true
 		});
 
 	}
