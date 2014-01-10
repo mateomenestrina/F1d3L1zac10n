@@ -25,7 +25,7 @@ function Facebook(){
 							 	_uid = response.authResponse.userID;
 							 	_access_token = response.authResponse.accessToken;
 						}
-						
+						console.log(response)
 						FB.api('/me', function(response2) {
 							_name = response2.name;
 							alert('conectado 3 ' + _name);
