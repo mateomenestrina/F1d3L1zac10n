@@ -28,7 +28,7 @@ function Facebook(){
 						console.log(response)
 						FB.api('/me', function(response2) {
 							_name = response2.name;
-							alert('conectado 3 ' + _name);
+							alert('conectado 33 ' + _name);
 						});
 							    	
 						alert('conectado 1' + _uid);
