@@ -55,5 +55,11 @@ function Facebook(){
 		
 	}
 
+	this.desconectar = function(){
+		
+     	 FB.logout();
+
+	}
+
 	
 }
