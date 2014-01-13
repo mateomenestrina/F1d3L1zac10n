@@ -51,22 +51,22 @@
 				if (typeof FB == 'undefined') alert('FB variable does not exist. Check that you have included the Facebook JS SDK file.');
 				*/
 
-
 				try{
 
 					_Facebook = new Facebook();
 					_Facebook.init();
 
 					_Facebook.esta_coenctado(function($bool){
-
 						if($bool)  mostrar_home();
 						else mostrar_connect();
 					})
+
 				}catch(e){
 
 					_uid = 1234567890;
 					_name = 'Local Host';
 					mostrar_home();
+
 				}
 				
 				$('#btn_mi_codigo').bind('touchstart click', function(){
@@ -76,14 +76,13 @@
 
 				})
 
-
 				$('#btn_mis_compras').bind('touchstart click', function(){
-				
 					
 					$('#codigo').hide();
 					$('#compras').toggle();
 					if($('#compras').css('display')=='none') return;
-					$('#loading').show()
+					$('#loading').show();
+
 					$.ajax({
 
 							type: "GET",
@@ -128,7 +127,7 @@
 
 			function conecto_ok(){
 
-				alert(_uid +' - ' + _name)
+			    mostrar_home();
 
 			}
 
