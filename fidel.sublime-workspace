@@ -1,0 +1,568 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"crea",
+				"createElement"
+			],
+			[
+				"mysql",
+				"mysql_query"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"re",
+				"repeat-x"
+			],
+			[
+				"strip",
+				"stripslashes"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3384,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/Facebook.js",
+			"settings":
+			{
+				"buffer_size": 1922,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "estilo.css",
+			"settings":
+			{
+				"buffer_size": 3166,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/estilo.css",
+		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/js/com/secciones/SeccionMapa.js",
+		"/Applications/MAMP/htdocs/toolkit/website/js/main.js",
+		"/Applications/MAMP/htdocs/f1deli1z4cion/config.xml",
+		"/Applications/MAMP/htdocs/f1deli1z4cion/index.html",
+		"/Volumes/www/unir_image_video/process.php",
+		"/Volumes/www/player_mobile/app/app.plist",
+		"/Volumes/www/player_mobile/app/index.php",
+		"/Applications/MAMP/htdocs/TestVarios/index.html",
+		"/Volumes/www/player_mobile/data.php",
+		"/Volumes/www/player_local_mobile/data.php",
+		"/Applications/MAMP/htdocs/dev_sm1rn00_ka3a1a/upload.php",
+		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/js/com/App.js",
+		"/Applications/MAMP/htdocs/TestVarios/config.xml",
+		"/Applications/MAMP/htdocs/TestVarios/test.sublime-workspace",
+		"/Applications/MAMP/htdocs/TestVarios/test.sublime-project",
+		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/config.xml",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/eventosofertas/ListaOfertas.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/css/eventosofertas.css",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/eventosofertas/UnEvento.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/utils/Facebook.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/App.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/eventosofertas/UnaOferta.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/eventosofertas/ListaEventos.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/eventosofertas/ItemListaEvento.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/SeccionEventosOfertas.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/config.xml",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/xml/default_db.xml",
+		"/C/wamp/www/s4nt4nd3rs_4pp/server/xml.eventos.php",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/eventosofertas/FormSubirEvento.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/server/xml.default_db.php",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/index.html",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/SeccionMapaForm.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/css/formsubirevento.css",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/css/controls.css",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/controls/InputText.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/css/mapaform.css",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/SeccionMapa.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/Base_Seccion.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/SeccionMenu.js",
+		"/C/Users/Mateo/SkyDrive/Documentos/A9VZXL4Q",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/Secciones.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/server/app/app.plist",
+		"/C/wamp/www/s4nt4nd3rs_4pp/server/app/index.php",
+		"/C/wamp/www/s4nt4nd3rs_4pp/server/class.Push.php",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/css/unaoferta.css",
+		"/C/wamp/www/s4nt4nd3rs_4pp/server/xml.ofertas.php",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/header/Header.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/css/header.css",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/css/mapa.css",
+		"/C/wamp/www/s4nt4nd3rs_4pp/server/void.set_push_token.php",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/utils/ManagePush.js",
+		"/C/Users/Mateo/AppData/Local/Temp/fz3temp-1/class.Push.php",
+		"/C/wamp/www/s4nt4nd3rs_4pp/server/set_participar.php",
+		"/C/Users/Mateo/Desktop/Santanders_App-release/AndroidManifest.xml",
+		"/C/Users/Mateo/Desktop/Santanders_App-release/res/xml/config.xml",
+		"/C/Users/Mateo/Desktop/core.gps.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/controls/Boton2Frames.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/css/menu.css",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/controls/BotonToogle.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/css/app.css",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/css/home.css",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/controls/Boton.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/menu/ItemMenu.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/css/unevento.css",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/eventosofertas/ItemListaOferta.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/SeccionHome.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp__/www/js/com/secciones/SeccionMenu.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/controls/Solapa.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/server/json.participaciones.php",
+		"/C/wamp/www/s4nt4nd3rs_4pp/server/_init.php",
+		"/C/wamp/www/s4nt4nd3rs_4pp/server/sync_value.php",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/SeccionUnaOferta.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/SeccionUnEvento.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/eventosofertas/SeccionHome.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/SeccionMapa - copia.js",
+		"/C/wamp/www/green ray led/public/js/com/App.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/server/sync_value.txt",
+		"/C/Users/Mateo/Downloads/vida en balance mobile/public/js/facebook.js",
+		"/C/Users/Mateo/Desktop/Home.js",
+		"/C/Users/Mateo/AppData/Local/Temp/fz3temp-1/Home.js",
+		"/C/Users/Mateo/Downloads/vida en balance mobile/public/config.xml",
+		"/C/Users/Mateo/Downloads/vida en balance mobile/public/index.html",
+		"/C/wamp/www/green ray led/public/css/controls.css",
+		"/C/Users/Mateo/AppData/Local/Temp/Rar$DRa1.425/Payload/SantandersApp.app/config.xml",
+		"/C/Users/Mateo/AppData/Local/Temp/Rar$DRa0.425/Payload/SantandersApp.app/config.xml",
+		"/C/Users/Mateo/Downloads/vida en balance mobile/public/js/lib/main/Main.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/server/version_sync.txt",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/CanvasSaver.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/SeccionFoto.js",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/css/foto.css",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/export.php",
+		"/C/wamp/www/s4nt4nd3rs_4pp/www/upload.php",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/css/foto.css",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/SeccionFoto.js",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/css/galeria.css",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/Ligthbox_foto.js",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/ItemGaleria.js",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/SeccionGaleria.js",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/App.js",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/config.xml",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/TouchSlide.js",
+		"/C/wamp/www/gennerayled/js/com/App.js",
+		"/C/wamp/www/gennerayled/js/com/upload_reportes_lightbox/ReportesUploadLightbox.js",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/Ligthbox_guardar.js",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/Boton.js",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/export.php",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/index.html",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/SeccionRegistro.js",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/Secciones.js",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/Base_Seccion.js",
+		"/C/wamp/www/b64.js",
+		"/C/wamp/www/base64-binary.js",
+		"/C/wamp/www/1383333762132.png",
+		"/C/wamp/www/test.htm",
+		"/C/wamp/www/ford_escapate/public/tab/js/actions/mosaic.js",
+		"/C/wamp/www/1383333762132.txt",
+		"/C/wamp/test.htm",
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/libs/pixastic.core.js",
+		"/C/wamp/www/ford_escapate/public/tab/js/Boton.js",
+		"/C/wamp/www/ford_escapate/public/tab/js/actions/invert.js",
+		"/C/wamp/www/ford_escapate/public/tab/js/actions/glow.js",
+		"/C/wamp/www/ford_escapate/public/tab/js/actions/edges.js",
+		"/C/wamp/www/ford_escapate/public/tab/js/actions/solarize.js",
+		"/C/wamp/www/ford_escapate/public/tab/js/actions/sharpen.js",
+		"/C/wamp/www/ford_escapate/public/tab/js/actions/unsharpmask.js",
+		"/C/wamp/www/ford_escapate/public/tab/js/actions/pointillize.js",
+		"/C/wamp/www/ford_escapate/public/tab/js/actions/lighten.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			")\n",
+			"				\n",
+			"listar",
+			"doParticipar",
+			"_eventos",
+			"actualizar_db",
+			"click",
+			"cargo_mapa",
+			"SeccionMapa_",
+			"item_ofeta",
+			"highAccuracy",
+			"SeccionMapa_imposible",
+			"gps.vars.locator",
+			"		        	\n",
+			"mask",
+			"this.main",
+			"response",
+			"ListaOfertas_holder",
+			"do_LISTAR_EVENTOS",
+			"holder_footer",
+			"html",
+			"lista_descuentos",
+			"mostrar_solapa",
+			"$solapa",
+			"solapa",
+			"resultado",
+			"eventos",
+			">\n",
+			"DROP",
+			"eventos",
+			"FormSubirEvento",
+			"SeccionUnaOferta",
+			"logito",
+			"_320",
+			" '",
+			"alert",
+			"my_client_id",
+			"hay_internet",
+			"alerta",
+			"alert",
+			"onNotificationGCM",
+			"successHandler",
+			"is_phonegap",
+			"array_tablas_a_crear",
+			"seccion",
+			"alert",
+			"version_sync",
+			"app_sync",
+			"selec",
+			"	setTimeout(function(){\n\n			if(app.hay_internet()){\n				verfificar_version_nueva_app()\n			}\n\n		}, 1000)\n",
+			"start",
+			"verificar_db",
+			"charset=\"utf-8\" src=\"",
+			"_canvas_export",
+			"canvas",
+			"applyAction",
+			"desaturate",
+			"Value",
+			"value",
+			"app",
+			"onError2",
+			"onError0",
+			"()",
+			"getValor",
+			"usuarios_lugar",
+			"comprobacion_total_tablas_creadas",
+			"	app.cargando(false)",
+			"Ligthbox_guardar",
+			"no",
+			"lightbox",
+			"Boton",
+			"cancelar_envio",
+			"siguiente",
+			"cancelar_envio",
+			"uri_foto",
+			"self",
+			"4",
+			"ny",
+			"mostrar_fondo_con_foto",
+			"secciones",
+			"60"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2069,
+								2069
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 969.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/Facebook.js",
+					"settings":
+					{
+						"buffer_size": 1922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								832,
+								832
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "estilo.css",
+					"settings":
+					{
+						"buffer_size": 3166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								777,
+								777
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 194.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true
+}

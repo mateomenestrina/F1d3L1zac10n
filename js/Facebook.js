@@ -12,8 +12,9 @@ function Facebook(){
 
 	}
 
-	this.esta_coenctado = function (){
-
+	this.esta_coenctado = function ($callback){
+		 $('#loading').show();
+	
 		 FB.getLoginStatus(function(response) {
      	
 	          	if (response.status == 'connected') {
@@ -25,21 +26,19 @@ function Facebook(){
 							 	_uid = response.authResponse.userID;
 							 	_access_token = response.authResponse.accessToken;
 						}
-						console.log(response)
+						
 						FB.api('/me', function(response2) {
 							_name = response2.name;
-							alert('conectado 33 ' + _name);
+							$('#loading').hide();
+							$callback(true)
 						});
 							    	
-						alert('conectado 1' + _uid);
-						alert('conectado 2' + _access_token);
-
-
+						
 
 					} else {	
 
-						alert('no conectado ' + _uid)
-
+						$('#loading').hide();
+						$callback(false)
 
 					}
 

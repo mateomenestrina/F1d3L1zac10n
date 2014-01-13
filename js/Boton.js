@@ -55,7 +55,7 @@ function Boton($html, $callback, $className){
 
 
 	function do_click(){
-	alert('aaa')
+	
 		if(habil) $callback();
 		
 	}

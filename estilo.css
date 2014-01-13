@@ -1,31 +1,177 @@
 html,body {
 			 
-			    -webkit-touch-callout: none; 
-			    -webkit-text-size-adjust: none;
-			    -webkit-user-select: none;
-			    margin:0;
-			    padding:0;
-			    height: 100%;
+    -webkit-touch-callout: none; 
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    margin:0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+    font-family: Verdana;
 			   
-			}
+}
+.registro_compra{
+	position: relative;
+	padding: 5px;
+	border-bottom: solid 1px #ccc;
 
-			.BotonAzul{
+	
+}
+.c_id{
+	position: relative;
+	width: 33%;
+	float: left;
+
+}
+.c_precio{
+	position: relative;
+	width: 33%;
+	float: left;
+	text-align: center;
+
+	color: #33AF42;
+}
+.c_puntos{
+	position: relative;
+	width: 33%;
+float: left;
+text-align: right;
+color: #f60;
+}
+
+#cantidad_puntos{
+	position: relative;
+	float: left;
+	text-align: center;
+	color: #D37804;
+	width: 100%;
+	margin-top: 30px;
+	font-size: 24px;
+}
+
+#content{
+
+	margin:0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+  	position: absolute;
+
+}
+
+.BotonAzul{
 				
-				background-color: #3b5a99;
-				color: #fff;
-				font-family: 'GothamBold';
-				padding: 11px 0px 11px 0px;
-				font-size: 12px;
-				position: absolute;
-				border-radius: 7px;
-				width: 140px;
-				text-align: center;
-			}
+	background-color: #3b5a99;
+	color: #fff;
+	font-family: 'GothamBold';
+	padding: 11px 0px 11px 0px;
+	font-size: 12px;
+	position: absolute;
+	border-radius: 7px;
+	width: 140px;
+	text-align: center;
 
-
+}
 
 #connect{
 	left: 50%;
 	top: 45%;
 	margin-left: -75px;
 }
+
+#nombre{
+	position: relative;
+	
+	text-align: right;
+	padding: 30px;
+
+}
+#codigo{
+	position: relative;
+	width: 100%;
+	padding: 30px;
+}
+#codigo > div{
+	position: relative;
+	
+	margin: 0 auto;
+	
+}
+.item_menu_home{
+
+	position: relative;
+	border-bottom: solid 1px #ccc;
+	padding: 20px;
+	background-color: #F1EAE5;
+
+}
+
+/* LOADING */
+#loading{
+
+ position: absolute;
+ width: 100%;
+ height:100%;
+ background-color: #000;
+ opacity: 0.9;
+ top: 0px;
+ left: 0px;
+
+}
+
+#txt_loading{
+	font-size: 16px;
+	color: #fff;
+	position: absolute;
+	left: inherit;
+	 font-family: 'GothamBook';
+	top: 50%;
+	width: 100%;
+	margin-top: 6px;
+	text-align: center;
+}
+
+.spinner {
+      position: absolute;
+      width: 30px;
+      height:30px;
+	  left:50%;
+	  top:50%;
+      display: inline-block;
+	  margin-left:-15px;
+		top:50%;
+		margin-top:-45px;
+}
+
+.spinner div {
+      width: 12%;
+      height: 30%;
+      background: #fff;
+      position: absolute;
+      left: 44.5%;
+      top: 37%;
+      opacity: 0;
+      -webkit-animation: fade 1s linear infinite;
+      -webkit-border-radius: 20px;
+      -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+    
+ .spinner div.bar1 {-webkit-transform:rotate(0deg) translate(0, -142%); -webkit-animation-delay: 0s;}    
+	.spinner div.bar2 {-webkit-transform:rotate(30deg) translate(0, -142%); -webkit-animation-delay: -0.9167s;}
+	.spinner div.bar3 {-webkit-transform:rotate(60deg) translate(0, -142%); -webkit-animation-delay: -0.833s;}
+	.spinner div.bar4 {-webkit-transform:rotate(90deg) translate(0, -142%); -webkit-animation-delay: -0.75s;}
+	.spinner div.bar5 {-webkit-transform:rotate(120deg) translate(0, -142%); -webkit-animation-delay: -0.667s;}
+	.spinner div.bar6 {-webkit-transform:rotate(150deg) translate(0, -142%); -webkit-animation-delay: -0.5833s;}
+	.spinner div.bar7 {-webkit-transform:rotate(180deg) translate(0, -142%); -webkit-animation-delay: -0.5s;}
+	.spinner div.bar8 {-webkit-transform:rotate(210deg) translate(0, -142%); -webkit-animation-delay: -0.41667s;}
+	.spinner div.bar9 {-webkit-transform:rotate(240deg) translate(0, -142%); -webkit-animation-delay: -0.333s;}
+	.spinner div.bar10 {-webkit-transform:rotate(270deg) translate(0, -142%); -webkit-animation-delay: -0.25s;}
+	.spinner div.bar11 {-webkit-transform:rotate(300deg) translate(0, -142%); -webkit-animation-delay: -0.1667s;}
+	.spinner div.bar12 {-webkit-transform:rotate(330deg) translate(0, -142%); -webkit-animation-delay: -0.0833s;}
+
+ @-webkit-keyframes fade {
+      from {opacity: 1;}
+      to {opacity: 0.25;}
+ }
+
+
