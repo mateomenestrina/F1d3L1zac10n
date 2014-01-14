@@ -20,10 +20,10 @@ function Facebook(){
 	          	if (response.status == 'connected') {
 
 	             		if ( device.platform == 'android' || device.platform == 'Android' ){
-								_uid = response.authResponse.userId;
+								_uid = response.authResponse.userId.toString();
 								_access_token = response.authResponse.accessToken;
 						}else {
-							 	_uid = response.authResponse.userID;
+							 	_uid = response.authResponse.userID.toString();
 							 	_access_token = response.authResponse.accessToken;
 						}
 						
@@ -56,10 +56,10 @@ function Facebook(){
 							  if (response2.authResponse) {
 							    	
 							    	if ( device.platform == 'android' || device.platform == 'Android' ){
-											_uid = response2.authResponse.userId;
+											_uid = response2.authResponse.userId.toString();
 											_access_token = response2.authResponse.accessToken;
 									}else {
-										 	_uid = response2.authResponse.userID;
+										 	_uid = response2.authResponse.userID.toString();
 										 	_access_token = response2.authResponse.accessToken;
 									}
 

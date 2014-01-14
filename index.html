@@ -63,7 +63,7 @@
 
 				}catch(e){
 
-					_uid = 1234567890;
+					_uid = '123456789012345123324333';
 					_name = 'Local Host';
 					mostrar_home();
 
@@ -141,14 +141,16 @@
 			function mostrar_home(){
 				
 				var resto = 13 - _uid.toString().length;
-				var txt_resto = ''
-
+				var txt_resto = '';
+				
 				for(var i = 0; i< resto; i++){
 					txt_resto +='0';
 				}
 
 				uid_code = txt_resto + '' + _uid 
 				
+				if(_uid.toString().length>13) uid_code = _uid.toString().substr(0,13)
+
 				$("#nombre").html('Bienvenido, ' + _name)
 				$("#codigo > div").barcode(uid_code, "ean13", {barWidth:2, barHeight:90});     
 				$('#home').show();
