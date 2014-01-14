@@ -4,20 +4,20 @@
 		"selected_items":
 		[
 			[
+				"bo",
+				"bottom"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
 				"te",
 				"text-align"
 			],
 			[
-				"fo",
-				"font-family"
-			],
-			[
 				"bor",
 				"border-bottom"
-			],
-			[
-				"bo",
-				"bottom"
 			],
 			[
 				"ba",
@@ -96,7 +96,15 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/index.html",
+			"settings":
+			{
+				"buffer_size": 3118,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/estilo.css",
 			"settings":
 			{
 				"buffer_size": 3384,
@@ -104,23 +112,10 @@
 			}
 		},
 		{
-			"file": "js/Facebook.js",
-			"settings":
-			{
-				"buffer_size": 1922,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "estilo.css",
-			"settings":
-			{
-				"buffer_size": 3166,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"contents": "",
+			"file": "/Volumes/www/fidelizacion_server/xml.eventos.php",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
 				"buffer_size": 0,
@@ -152,7 +147,20 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/index.html",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/estilo.css",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/config.xml",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/estilo.css",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/index.html",
+		"/Volumes/www/fidelizacion_server/xml.get.php",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Boton.js",
+		"/Volumes/www/fidelizacion_server/_init.php",
+		"/Volumes/www/fidelizacion_server/xml.eventos.php",
+		"/Applications/MAMP/htdocs/dev_sm1rn00_ka3a1a/upload.php",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/server/_init.php",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/server/xml.eventos.php",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/server/xml.get.php",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Facebook.js",
 		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/js/com/secciones/SeccionMapa.js",
 		"/Applications/MAMP/htdocs/toolkit/website/js/main.js",
 		"/Applications/MAMP/htdocs/f1deli1z4cion/config.xml",
@@ -163,7 +171,6 @@
 		"/Applications/MAMP/htdocs/TestVarios/index.html",
 		"/Volumes/www/player_mobile/data.php",
 		"/Volumes/www/player_local_mobile/data.php",
-		"/Applications/MAMP/htdocs/dev_sm1rn00_ka3a1a/upload.php",
 		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/js/com/App.js",
 		"/Applications/MAMP/htdocs/TestVarios/config.xml",
 		"/Applications/MAMP/htdocs/TestVarios/test.sublime-workspace",
@@ -267,19 +274,7 @@
 		"/C/wamp/www/base64-binary.js",
 		"/C/wamp/www/1383333762132.png",
 		"/C/wamp/www/test.htm",
-		"/C/wamp/www/ford_escapate/public/tab/js/actions/mosaic.js",
-		"/C/wamp/www/1383333762132.txt",
-		"/C/wamp/test.htm",
-		"/C/wamp/www/dev_sm1rn00_ka3a1a/libs/pixastic.core.js",
-		"/C/wamp/www/ford_escapate/public/tab/js/Boton.js",
-		"/C/wamp/www/ford_escapate/public/tab/js/actions/invert.js",
-		"/C/wamp/www/ford_escapate/public/tab/js/actions/glow.js",
-		"/C/wamp/www/ford_escapate/public/tab/js/actions/edges.js",
-		"/C/wamp/www/ford_escapate/public/tab/js/actions/solarize.js",
-		"/C/wamp/www/ford_escapate/public/tab/js/actions/sharpen.js",
-		"/C/wamp/www/ford_escapate/public/tab/js/actions/unsharpmask.js",
-		"/C/wamp/www/ford_escapate/public/tab/js/actions/pointillize.js",
-		"/C/wamp/www/ford_escapate/public/tab/js/actions/lighten.js"
+		"/C/wamp/www/ford_escapate/public/tab/js/actions/mosaic.js"
 	],
 	"find":
 	{
@@ -297,6 +292,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"doConnect",
+			"btn_connect",
+			"_eventos",
+			"_eventos_del",
 			")\n",
 			"				\n",
 			"listar",
@@ -395,12 +394,39 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/index.html",
+					"settings":
+					{
+						"buffer_size": 3118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2167,
+								2167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 986.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/estilo.css",
 					"settings":
 					{
 						"buffer_size": 3384,
@@ -410,62 +436,8 @@
 						"selection":
 						[
 							[
-								2069,
-								2069
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 969.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/Facebook.js",
-					"settings":
-					{
-						"buffer_size": 1922,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								832,
-								832
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "estilo.css",
-					"settings":
-					{
-						"buffer_size": 3166,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								777,
-								777
+								1993,
+								1993
 							]
 						],
 						"settings":
@@ -473,13 +445,14 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 194.0,
+						"translation.y": 1645.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
+					"file": "/Volumes/www/fidelizacion_server/xml.eventos.php",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -495,8 +468,7 @@
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -563,6 +535,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 189.0,
+	"side_bar_width": 209.0,
 	"status_bar_visible": true
 }
