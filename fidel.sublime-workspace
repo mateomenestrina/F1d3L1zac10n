@@ -95,39 +95,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/config.xml",
-			"settings":
-			{
-				"buffer_size": 1230,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "plugman uninstall --platform ios --project /Users/mateomenrstrina/Documents/phonegapApps/fidelizacion/platforms/ios/ --plugin https://github.com/phonegap/phonegap-facebook-plugin --variable APP_ID=\"1435336426698191\" --variable APP_NAME=\"fidelizacion_testing\"\n\n\n\nplugman install --platform ios --project /Users/mateomenrstrina/Documents/phonegapApps/fidelizacionscan/platforms/ios/ --plugin https://github.com/phonegap-build/BarcodeScanner \n",
-			"settings":
-			{
-				"buffer_size": 440,
-				"line_ending": "Unix",
-				"name": "plugman uninstall --platform ios --project /Users/"
-			}
-		},
-		{
-			"file": "config.xml",
-			"settings":
-			{
-				"buffer_size": 1374,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 4802,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -153,17 +120,18 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Facebook.js",
-		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/index.html",
-		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/estilo.css",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Boton.js",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/index.html",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/config.xml",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/config.xml",
 		"/Volumes/www/fidelizacion_server/xml.set.php",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/index.html",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Facebook.js",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/estilo.css",
 		"/Volumes/www/fidelizacion_server/xml.get.php",
 		"/Volumes/www/fidelizacion_server/_init.php",
-		"/Applications/MAMP/htdocs/F1d3L1zac10n/index.html",
 		"/Volumes/www/fidelizacion_server/xml.eventos.php",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/estilo.css",
-		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/config.xml",
-		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Boton.js",
 		"/Applications/MAMP/htdocs/dev_sm1rn00_ka3a1a/upload.php",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/server/_init.php",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/server/xml.eventos.php",
@@ -279,8 +247,7 @@
 		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/Base_Seccion.js",
 		"/C/wamp/www/b64.js",
 		"/C/wamp/www/base64-binary.js",
-		"/C/wamp/www/1383333762132.png",
-		"/C/wamp/www/test.htm"
+		"/C/wamp/www/1383333762132.png"
 	],
 	"find":
 	{
@@ -400,118 +367,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/config.xml",
-					"settings":
-					{
-						"buffer_size": 1230,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								777,
-								777
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"settings":
-					{
-						"buffer_size": 440,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								259
-							]
-						],
-						"settings":
-						{
-							"auto_name": "plugman uninstall --platform ios --project /Users/",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "config.xml",
-					"settings":
-					{
-						"buffer_size": 1374,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1314,
-								1334
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 4802,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3350,
-								3350
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1979.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
