@@ -17,7 +17,6 @@
 	</head>
 
 	<body>
-
 		
 		<script src="cordova.js"></script>
 		<script src="cdv-plugin-fb-connect.js"></script>
@@ -28,7 +27,8 @@
 
 		<script>
 			
-			var SERVER = 'http://192.168.235.153/fidelizacion_server/';
+			//var SERVER = 'http://192.168.235.153/fidelizacion_server/';
+			var SERVER = 'http://www.mdinteractivo.com/fidelizacion_server/';
 			var _uid = 0;
 			var _access_token = '';
 			var _name = '';
@@ -45,11 +45,11 @@
 				btn_connect.main.id = 'connect'
 				$('#connect').append(btn_connect.main)
 
-				/*
+				
 				if ((typeof cordova == 'undefined') && (typeof Cordova == 'undefined')) alert('Cordova variable does not exist. Check that you have included cordova.js correctly');
 				if (typeof CDV == 'undefined') alert('CDV variable does not exist. Check that you have included cdv-plugin-fb-connect.js correctly');
 				if (typeof FB == 'undefined') alert('FB variable does not exist. Check that you have included the Facebook JS SDK file.');
-				*/
+			
 
 				try{
 
