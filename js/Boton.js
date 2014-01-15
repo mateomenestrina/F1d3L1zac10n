@@ -46,8 +46,6 @@ function Boton($html, $callback, $className){
 
 	
 		setTimeout(function (){
-
-		
 			do_mouseout()
 			if(habil) $callback();
 		}, 200)
