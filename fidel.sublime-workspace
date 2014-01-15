@@ -96,29 +96,35 @@
 	"buffers":
 	[
 		{
-			"file": "/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/index.html",
+			"file": "/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/config.xml",
 			"settings":
 			{
-				"buffer_size": 3118,
+				"buffer_size": 1230,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/estilo.css",
+			"contents": "plugman uninstall --platform ios --project /Users/mateomenrstrina/Documents/phonegapApps/fidelizacion/platforms/ios/ --plugin https://github.com/phonegap/phonegap-facebook-plugin --variable APP_ID=\"1435336426698191\" --variable APP_NAME=\"fidelizacion_testing\"\n\n\n\nplugman install --platform ios --project /Users/mateomenrstrina/Documents/phonegapApps/fidelizacionscan/platforms/ios/ --plugin https://github.com/phonegap-build/BarcodeScanner \n",
 			"settings":
 			{
-				"buffer_size": 3384,
+				"buffer_size": 440,
+				"line_ending": "Unix",
+				"name": "plugman uninstall --platform ios --project /Users/"
+			}
+		},
+		{
+			"file": "config.xml",
+			"settings":
+			{
+				"buffer_size": 1374,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "",
-			"file": "/Volumes/www/fidelizacion_server/xml.eventos.php",
-			"file_size": -1,
-			"file_write_time": -1,
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 4802,
 				"line_ending": "Unix"
 			}
 		}
@@ -147,20 +153,21 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Facebook.js",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/index.html",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/estilo.css",
+		"/Volumes/www/fidelizacion_server/xml.set.php",
+		"/Volumes/www/fidelizacion_server/xml.get.php",
+		"/Volumes/www/fidelizacion_server/_init.php",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/index.html",
+		"/Volumes/www/fidelizacion_server/xml.eventos.php",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/estilo.css",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/config.xml",
-		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/estilo.css",
-		"/Applications/MAMP/htdocs/F1d3L1zac10n/index.html",
-		"/Volumes/www/fidelizacion_server/xml.get.php",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Boton.js",
-		"/Volumes/www/fidelizacion_server/_init.php",
-		"/Volumes/www/fidelizacion_server/xml.eventos.php",
 		"/Applications/MAMP/htdocs/dev_sm1rn00_ka3a1a/upload.php",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/server/_init.php",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/server/xml.eventos.php",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/server/xml.get.php",
-		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Facebook.js",
 		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/js/com/secciones/SeccionMapa.js",
 		"/Applications/MAMP/htdocs/toolkit/website/js/main.js",
 		"/Applications/MAMP/htdocs/f1deli1z4cion/config.xml",
@@ -273,8 +280,7 @@
 		"/C/wamp/www/b64.js",
 		"/C/wamp/www/base64-binary.js",
 		"/C/wamp/www/1383333762132.png",
-		"/C/wamp/www/test.htm",
-		"/C/wamp/www/ford_escapate/public/tab/js/actions/mosaic.js"
+		"/C/wamp/www/test.htm"
 	],
 	"find":
 	{
@@ -399,18 +405,100 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/index.html",
+					"file": "/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/config.xml",
 					"settings":
 					{
-						"buffer_size": 3118,
+						"buffer_size": 1230,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2167,
-								2167
+								777,
+								777
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 440,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								259
+							]
+						],
+						"settings":
+						{
+							"auto_name": "plugman uninstall --platform ios --project /Users/",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config.xml",
+					"settings":
+					{
+						"buffer_size": 1374,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1314,
+								1334
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 4802,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3350,
+								3350
 							]
 						],
 						"settings":
@@ -419,59 +507,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 986.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/estilo.css",
-					"settings":
-					{
-						"buffer_size": 3384,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1993,
-								1993
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1645.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Volumes/www/fidelizacion_server/xml.eventos.php",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1979.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
