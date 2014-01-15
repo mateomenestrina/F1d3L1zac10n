@@ -29,7 +29,7 @@
 			
 			//var SERVER = 'http://192.168.235.153/fidelizacion_server/';
 			var SERVER = 'http://www.mdinteractivo.com/fidelizacion_server/';
-			var _uid = 0;
+			var _uid = '';
 			var _access_token = '';
 			var _name = '';
 			var _Facebook;
@@ -133,18 +133,21 @@
 
 			function mostrar_connect(){
 
-				$('#home').hide()
-				$('#connect').show()
+				if(_uid == ''){
+					$('#home').hide()
+					$('#connect').show()
+				}
+				
 
 			}
 
 			function mostrar_home(){
 				
 
-				alert(_uid)
+			
 				var resto = 13 - _uid.toString().length;
 				var txt_resto = '';
-				
+
 				for(var i = 0; i< resto; i++){
 					txt_resto +='0';
 				}
