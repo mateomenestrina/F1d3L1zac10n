@@ -50,12 +50,12 @@
 					
 					$('#codigo').toggle();
 					$('#compras').hide();
-					$(btn_mis_compras.main).css('margin-top', 11);
+					$(btn_mis_compras.main).css('margin-top', 55);
 					$(btn_lorem.main).hide();
 				}
 
 			function mis_compras(){
-					$(btn_mis_compras.main).css('margin-top', -39);
+					$(btn_mis_compras.main).css('margin-top', 2);
 					$('#codigo').hide();
 					$('#compras').toggle();
 					if($('#compras').css('display')=='none') return;
@@ -93,7 +93,7 @@
 								setTimeout(function (){
 										$('#bg_mispuntos').bind('click', function(){
 
-											$('#home>div').transition({x:-window.innerWidth}, 300)
+											$('#home>div').transition({x:-window.innerWidth-20}, 325)
 
 										})
 
@@ -132,7 +132,7 @@
 
 				}catch(e){
 
-					_uid = '1';
+					_uid = '582872896';
 					_name = 'Mark';
 					mostrar_home();
 				
@@ -243,7 +243,7 @@
 
 			<span id='nombre'></span>
 			<span id='btn_volver'></span>
-			<div style='position: absolute;left: 0px;top: 50px;width: 100%;height: 100%;'>
+			<div style='position: absolute;left: 0px;top: 0px;width: 100%;height: 100%;'>
 				<div id='home_botones'  style='position: absolute;left: 0px;top: 0px;width: 100%;height: 100%;'></div>
 
 
@@ -252,7 +252,7 @@
 
 				<div id='codigo' style='display:none'><img src='img/bg_micodigo.png' width='265' /><div></div></div>
 
-				<div id='compras'  style='display:none'></div>
+				<div id='compras' style='display:none; height: 20%;'></div>
 				
 			</div>
 
