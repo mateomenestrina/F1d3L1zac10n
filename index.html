@@ -110,6 +110,14 @@
 
 			function deviceready(){
 
+				try{
+					 if ( device.platform == 'android' || device.platform == 'Android' ) { }
+						else {
+						   StatusBar.hide();
+						}
+
+				}catch(e){}
+
 				btn_connect = new Boton2Frames("img/connect.png", 247, 100,  doConnect)
 				btn_connect.main.id = 'btn_connect'
 				$('#connect').append(btn_connect.main)
