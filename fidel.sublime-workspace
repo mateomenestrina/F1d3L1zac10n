@@ -95,6 +95,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4946,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -120,13 +128,13 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Facebook.js",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/index.html",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Boton.js",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/index.html",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/config.xml",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/config.xml",
 		"/Volumes/www/fidelizacion_server/xml.set.php",
-		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/index.html",
-		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Facebook.js",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/estilo.css",
 		"/Volumes/www/fidelizacion_server/xml.get.php",
 		"/Volumes/www/fidelizacion_server/_init.php",
@@ -367,8 +375,36 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 4946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4072,
+								4072
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2175.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

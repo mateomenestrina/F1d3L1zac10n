@@ -24,6 +24,7 @@
 
 		<script src="js/Facebook.js"></script>
 		<script src="js/Boton.js"></script>
+		<script src="js/Boton2Frames.js"></script>
 
 		<script>
 			
@@ -38,49 +39,28 @@
 			document.addEventListener('deviceready', deviceready, false);
 
 
+		 	function es_touch(){
 
-			function deviceready(){
-
-				btn_connect = new Boton("INICAR SESSION", doConnect, 'BotonAzul')
-				btn_connect.main.id = 'connect'
-				$('#connect').append(btn_connect.main)
-
-				
-				if ((typeof cordova == 'undefined') && (typeof Cordova == 'undefined')) alert('Cordova variable does not exist. Check that you have included cordova.js correctly');
-				if (typeof CDV == 'undefined') alert('CDV variable does not exist. Check that you have included cdv-plugin-fb-connect.js correctly');
-				if (typeof FB == 'undefined') alert('FB variable does not exist. Check that you have included the Facebook JS SDK file.');
+					if($.browser.chrome) return false;  
+					else return true;  
 			
+			}
 
-				try{
-
-					_Facebook = new Facebook();
-					_Facebook.init();
-
-					_Facebook.esta_coenctado(function($bool){
-						if($bool)  mostrar_home();
-						else mostrar_connect();
-					})
-
-				}catch(e){
-
-					_uid = '123456789012345123324333';
-					_name = 'Local Host';
-					mostrar_home();
-
-				}
-				
-				$('#btn_mi_codigo').bind('touchstart', function(){
+			function doVerMiCodigo(){
 					
 					$('#codigo').toggle();
 					$('#compras').hide();
+					$(btn_mis_compras.main).css('margin-top', 11);
+					$(btn_lorem.main).hide();
+				}
 
-				})
-
-				$('#btn_mis_compras').bind('touchstart', function(){
-					
+			function mis_compras(){
+					$(btn_mis_compras.main).css('margin-top', -39);
 					$('#codigo').hide();
 					$('#compras').toggle();
 					if($('#compras').css('display')=='none') return;
+
+					$(btn_lorem.main).hide();
 					$('#loading').show();
 
 					$.ajax({
@@ -96,26 +76,70 @@
 								var obj = $.parseJSON($($xml).find('compras').text())
 								var _html = '';
 								var cant = 0;
+								_html += '<div id="lista">';
 								for(var item_compra in obj){
 									
 									_html += '<div class="registro_compra"><div class="c_id">Compra #' + obj[item_compra].compras_id + '</div><div class="c_precio">' + obj[item_compra].compras_precio + ' $</div><div class="c_puntos">' + obj[item_compra].compras_puntos + ' pts.</div><br style="clear:both"></div>';
 									cant += Number( obj[item_compra].compras_puntos);
 
 								}
-
-								_html += '<div id="cantidad_puntos">total '+cant+' pts.</div>';
+								_html += '</div>';
+								_html += "<img src='img/bg_mispuntos.png' id='bg_mispuntos' width='264'  />";
+								_html += '<div id="cantidad_puntos">Total '+cant+'pts.</div>';
 								$('#compras').html(_html);
 								$('#loading').hide();
-								$
+
+
+								setTimeout(function (){
+										$('#bg_mispuntos').bind('click', function(){
+
+											$('#home>div').transition({x:-window.innerWidth}, 300)
+
+										})
+
+								}, 0)
+							
 							},
 							error: function(){ 
 								$('#loading').hide()
 							}
 						});	
 
-				})
+				}
 
 
+			function deviceready(){
+
+				btn_connect = new Boton2Frames("img/connect.png", 247, 100,  doConnect)
+				btn_connect.main.id = 'btn_connect'
+				$('#connect').append(btn_connect.main)
+
+			/*	
+				if ((typeof cordova == 'undefined') && (typeof Cordova == 'undefined')) alert('Cordova variable does not exist. Check that you have included cordova.js correctly');
+				if (typeof CDV == 'undefined') alert('CDV variable does not exist. Check that you have included cdv-plugin-fb-connect.js correctly');
+				if (typeof FB == 'undefined') alert('FB variable does not exist. Check that you have included the Facebook JS SDK file.');
+			
+*/
+				try{
+
+					_Facebook = new Facebook();
+					_Facebook.init();
+
+					_Facebook.esta_coenctado(function($bool){
+						if($bool)  mostrar_home();
+						else mostrar_connect();
+					})
+
+				}catch(e){
+
+					_uid = '1';
+					_name = 'Mark';
+					mostrar_home();
+				
+
+				}
+				
+				
 
 			}				
 
@@ -136,7 +160,8 @@
 				
 					$('#home').hide()
 					$('#connect').show()
-			
+					$('#connect').show()
+					$('#loguito').show()
 				
 
 			}
@@ -144,7 +169,35 @@
 			function mostrar_home(){
 				
 				if(_uid != ''){
-			
+					
+					$('#connect').hide()
+					$('#loguito').hide()
+					$('#vecino').hide()
+
+					var avatar = new Image();
+					avatar.id = 'avatar';
+					avatar.src = 'http://graph.facebook.com/'+_uid+'/picture?width=70&height=70'
+					$('#home').append(avatar);
+
+					btn_mi_codigo = new Boton2Frames("img/btn_mi_codigo.png", 278, 200,  doVerMiCodigo)
+					btn_mi_codigo.main.id = 'btn_mi_codigo'
+					$('#home_botones').append(btn_mi_codigo.main)
+
+					btn_mis_compras = new Boton2Frames("img/btn_mis_compras.png", 278, 200,  mis_compras)
+					btn_mis_compras.main.id = 'btn_mis_compras'
+					$('#home_botones').append(btn_mis_compras.main)
+
+					btn_lorem = new Boton2Frames("img/btn_lorem.png", 278, 200,  function(){alert('FPO')})
+					btn_lorem.main.id = 'btn_lorem'
+					$('#home_botones').append(btn_lorem.main)
+
+
+					$('#btn_volver').bind('click', function(){
+
+						$('#home>div').transition({x:0}, 300)
+
+					})
+
 					var resto = 13 - _uid.toString().length;
 					var txt_resto = '';
 
@@ -157,7 +210,7 @@
 					if(_uid.toString().length>13) uid_code = _uid.toString().substr(0,13)
 
 					$("#nombre").html('Bienvenido, ' + _name)
-					$("#codigo > div").barcode(uid_code, "ean13", {barWidth:2, barHeight:90});     
+					$("#codigo > div").barcode(uid_code, "ean13", {barWidth:2, barHeight:70});     
 					$('#home').show();
 					$('#connect').hide();
 
@@ -174,17 +227,35 @@
 
 	<div id='content'>
 
-		<div id="connect" style='display:none'>
+		<img src='img/bg.png' id='bg' />
 
+
+
+
+		<div id="connect" style='display:none'>
+			<img src='img/vecino.png' id='vecino' width='206' />
+			<img src='img/loguito.png' id='loguito' width='100'  />
 		</div> 
 
+
 		<div id="home" style='display:none'>
+			<img src='img/circulo.png' id='circulo' width='121'  />
+
+			<span id='nombre'></span>
+			<span id='btn_volver'></span>
+			<div style='position: absolute;left: 0px;top: 50px;width: 100%;height: 100%;'>
+				<div id='home_botones'  style='position: absolute;left: 0px;top: 0px;width: 100%;height: 100%;'></div>
+
+
 				
-			<div id='nombre'></div>
-			<div id='btn_mi_codigo' class='item_menu_home'>MI CODIGO ></div>
-			<div id='codigo' style='display:none'><div></div></div>
-			<div id='btn_mis_compras' class='item_menu_home'>MIS COMPRAS ></div>
-			<div id='compras'  style='display:none'></div>
+
+
+				<div id='codigo' style='display:none'><img src='img/bg_micodigo.png' width='265' /><div></div></div>
+
+				<div id='compras'  style='display:none'></div>
+				
+			</div>
+
 
 		</div>   
 
