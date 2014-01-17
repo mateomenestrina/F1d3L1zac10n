@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-left"
+			],
+			[
 				"bo",
 				"bottom"
 			],
@@ -22,10 +26,6 @@
 			[
 				"ba",
 				"background-color"
-			],
-			[
-				"mar",
-				"margin-left"
 			],
 			[
 				"fu",
@@ -99,8 +99,32 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4946,
+				"buffer_size": 7024,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "estilo.css",
+			"settings":
+			{
+				"buffer_size": 5175,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.xml",
+			"settings":
+			{
+				"buffer_size": 1415,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/js/com/App.js",
+			"settings":
+			{
+				"buffer_size": 15258,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -128,6 +152,13 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/config.xml",
+		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/js/com/App.js",
+		"/Volumes/www/thedistiller/public/js/com/secciones/pedirsabor/ItemAmigoConSabor.js",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Boton2Frames.js",
+		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp_v2/www/css/controls.css",
+		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp_v2/www/js/com/App.js",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/img/btn.png",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Facebook.js",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/index.html",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Boton.js",
@@ -154,11 +185,9 @@
 		"/Applications/MAMP/htdocs/TestVarios/index.html",
 		"/Volumes/www/player_mobile/data.php",
 		"/Volumes/www/player_local_mobile/data.php",
-		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/js/com/App.js",
 		"/Applications/MAMP/htdocs/TestVarios/config.xml",
 		"/Applications/MAMP/htdocs/TestVarios/test.sublime-workspace",
 		"/Applications/MAMP/htdocs/TestVarios/test.sublime-project",
-		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/config.xml",
 		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/eventosofertas/ListaOfertas.js",
 		"/C/wamp/www/s4nt4nd3rs_4pp/www/css/eventosofertas.css",
 		"/C/wamp/www/s4nt4nd3rs_4pp/www/js/com/secciones/eventosofertas/UnEvento.js",
@@ -250,12 +279,7 @@
 		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/Boton.js",
 		"/C/wamp/www/dev_sm1rn00_ka3a1a/export.php",
 		"/C/wamp/www/dev_sm1rn00_ka3a1a/index.html",
-		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/SeccionRegistro.js",
-		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/Secciones.js",
-		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/Base_Seccion.js",
-		"/C/wamp/www/b64.js",
-		"/C/wamp/www/base64-binary.js",
-		"/C/wamp/www/1383333762132.png"
+		"/C/wamp/www/dev_sm1rn00_ka3a1a/com/SeccionRegistro.js"
 	],
 	"find":
 	{
@@ -273,6 +297,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"11",
+			"compras",
+			"lista",
+			"cont",
+			"lista",
+			"home",
+			"cantida",
+			"codigo",
 			"doConnect",
 			"btn_connect",
 			"_eventos",
@@ -375,7 +407,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -383,15 +415,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 4946,
+						"buffer_size": 7024,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4072,
-								4072
+								3071,
+								3113
 							]
 						],
 						"settings":
@@ -400,7 +432,88 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2175.0,
+						"translation.y": 1589.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "estilo.css",
+					"settings":
+					{
+						"buffer_size": 5175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5175,
+								5175
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4336.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config.xml",
+					"settings":
+					{
+						"buffer_size": 1415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1400,
+								1400
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/js/com/App.js",
+					"settings":
+					{
+						"buffer_size": 15258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4015,
+								4126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1913.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
