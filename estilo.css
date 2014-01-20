@@ -38,14 +38,14 @@ html,body {
 	float: left;
 	text-align: center;
 
-	color: #33AF42;
+	color: #125488;
 }
 .c_puntos{
 	position: relative;
 	width: 33%;
 	float: left;
 	text-align: right;
-	color: #f60;
+	color: #BD0202;
 }
 #content{
 	width: 100%;
