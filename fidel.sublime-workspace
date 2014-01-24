@@ -95,38 +95,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 7024,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "estilo.css",
-			"settings":
-			{
-				"buffer_size": 5175,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config.xml",
-			"settings":
-			{
-				"buffer_size": 1415,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/js/com/App.js",
-			"settings":
-			{
-				"buffer_size": 15258,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -152,8 +120,11 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/config.xml",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/index.html",
 		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/js/com/App.js",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/config.xml",
+		"/Applications/MAMP/htdocs/F1d3L1zac10n/estilo.css",
+		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/config.xml",
 		"/Volumes/www/thedistiller/public/js/com/secciones/pedirsabor/ItemAmigoConSabor.js",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Boton2Frames.js",
 		"/Applications/MAMP/htdocs/s4nt4nd3rs_4pp_v2/www/css/controls.css",
@@ -162,15 +133,12 @@
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Facebook.js",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/index.html",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/js/Boton.js",
-		"/Applications/MAMP/htdocs/F1d3L1zac10n/index.html",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/config.xml",
-		"/Applications/MAMP/htdocs/F1d3L1zac10n/config.xml",
 		"/Volumes/www/fidelizacion_server/xml.set.php",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n_sc4n/estilo.css",
 		"/Volumes/www/fidelizacion_server/xml.get.php",
 		"/Volumes/www/fidelizacion_server/_init.php",
 		"/Volumes/www/fidelizacion_server/xml.eventos.php",
-		"/Applications/MAMP/htdocs/F1d3L1zac10n/estilo.css",
 		"/Applications/MAMP/htdocs/dev_sm1rn00_ka3a1a/upload.php",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/server/_init.php",
 		"/Applications/MAMP/htdocs/F1d3L1zac10n/server/xml.eventos.php",
@@ -407,117 +375,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 7024,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3071,
-								3113
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1589.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "estilo.css",
-					"settings":
-					{
-						"buffer_size": 5175,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5175,
-								5175
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 4336.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "config.xml",
-					"settings":
-					{
-						"buffer_size": 1415,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1400,
-								1400
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Applications/MAMP/htdocs/s4nt4nd3rs_4pp/www/js/com/App.js",
-					"settings":
-					{
-						"buffer_size": 15258,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4015,
-								4126
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1913.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
